@@ -11,7 +11,7 @@ const Hero = () => {
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none font-['Playfair_Display']">
                 Спатифиллум — изящество и чистота
               </h1>
-              <p className="max-w-[600px] text-muted-foreground md:text-xl">
+              <p className="max-w-[600px] text-muted-foreground md:text-xl font-dancing">
                 Узнайте все о выращивании и уходе за популярным комнатным
                 растением, которое очищает воздух и радует белоснежными цветами.
               </p>

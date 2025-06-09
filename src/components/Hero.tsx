@@ -1,4 +1,5 @@
-import { Button } from '@/components/ui/button';
+import { Button } from "@/components/ui/button";
+import { PlasticButton } from "@/components/ui/plastic-button";
 
 const Hero = () => {
   return (
@@ -11,14 +12,12 @@ const Hero = () => {
                 Спатифиллум — изящество и чистота
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Узнайте все о выращивании и уходе за популярным комнатным растением, 
-                которое очищает воздух и радует белоснежными цветами.
+                Узнайте все о выращивании и уходе за популярным комнатным
+                растением, которое очищает воздух и радует белоснежными цветами.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button size="lg" className="font-medium">
-                Начать знакомство
-              </Button>
+              <PlasticButton text="Начать знакомство" />
               <Button variant="outline" size="lg" className="font-medium">
                 Советы по уходу
               </Button>
@@ -29,7 +28,7 @@ const Hero = () => {
               alt="Спатифиллум"
               className="object-cover w-full h-full"
               src="https://images.unsplash.com/photo-1637967886160-fd78dc3ce3f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-              style={{ objectPosition: 'center' }}
+              style={{ objectPosition: "center" }}
             />
           </div>
         </div>

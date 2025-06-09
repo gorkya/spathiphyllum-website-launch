@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import KanbanBoard from "@/components/KanbanBoard";
 import AboutPlant from "@/components/AboutPlant";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
@@ -12,6 +13,7 @@ const Index = () => {
       <main className="flex-1">
         <Hero />
         <Features />
+        <KanbanBoard />
         <AboutPlant />
         <Testimonials />
       </main>
